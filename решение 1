@@ -1,0 +1,24 @@
+using System;
+namespace task1877
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string a =Console.ReadLine();
+            string b = Console.ReadLine();
+            char[] simv1 = a.ToCharArray();
+            char[] simv2 = b.ToCharArray();
+                    if ((simv1[0] == '0') && (simv1[1] == '0') && (simv1[2] == '0') && (simv1[3] == '2') && (simv2[0] == '0') && (simv2[1] == '0') && (simv2[2] == '0') && (simv2[3] == '1'))
+                    {
+                        Console.WriteLine("no");
+                    }
+                    else
+                    {
+                        Console.WriteLine("yes");
+                    }
+                
+            
+        }
+    }
+}
