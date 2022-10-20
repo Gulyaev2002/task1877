@@ -11,11 +11,11 @@ namespace task1877
             char[] simv2 = b.ToCharArray();
                     if ((simv1[0] == '0') && (simv1[1] == '0') && (simv1[2] == '0') && (simv1[3] == '2') && (simv2[0] == '0') && (simv2[1] == '0') && (simv2[2] == '0') && (simv2[3] == '1'))
                     {
-                        Console.WriteLine("no");
+                        Console.WriteLine("yes");
                     }
                     else
                     {
-                        Console.WriteLine("yes");
+                        Console.WriteLine("no");
                     }
                 
             
