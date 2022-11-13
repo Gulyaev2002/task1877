@@ -27,7 +27,11 @@ namespace task1877
                         Console.WriteLine("yes");
                         break;
                     }
-                }
+                    else
+                    {
+                        Console.WriteLine("no");
+                        break;
+                    }
                 c++;
             }
-            Console.WriteLine("no");
+           
