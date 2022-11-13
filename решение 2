@@ -1,0 +1,33 @@
+using System;
+using System.Runtime.InteropServices;
+
+namespace task1877
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int a = Convert.ToInt32(Console.ReadLine());
+            int b = Convert.ToInt32(Console.ReadLine());
+            int c = 0;
+            while (c <= 9999)
+            {
+                if (c %2 == 0)
+                {
+                    if (c == a)
+                    {
+                        Console.WriteLine("yes");
+                        break;
+                    }
+                }
+                else
+                {
+                    if (c == b)
+                    {
+                        Console.WriteLine("yes");
+                        break;
+                    }
+                }
+                c++;
+            }
+            Console.WriteLine("no");
